@@ -1,0 +1,387 @@
+.Myicons{
+/* Frame 730 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+/* background-color: aqua; */
+position: absolute;
+width: 1170px;
+height: 313px;
+left: 135px;
+top: 1415px;
+}
+
+.categoryItem{
+    /* Frame 729 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 691px;
+/* background-color: #DB4444; */
+width: 1170px;
+height: 108px;
+/* background-color: blueviolet; */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.categoryHeading{
+    /* Frame 624 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 379px;
+height: 108px;
+/* background-color: burlywood; */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Today{
+   /* Categories */
+display: flex;
+width: 90px;
+height: 20px;
+/* Title/16PX Semibold */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Secondary 2 */
+color: #DB4444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.flash{
+    /* Browse By Category */
+
+width: 379px;
+height: 48px;
+
+/* Heading/36PX SemiBold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.arrows{
+    /* Frame 615 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+background-color: aliceblue;
+width: 100px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.leftArrow{
+    /* Fill With Left Arrow */
+
+width: 46px;
+height: 46px;
+font-size: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.rightArrow{
+    /* Fill With Left Arrow */
+
+width: 46px;
+height: 46px;
+font-size: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.red{
+    /* Rectangle 17 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 30px;
+width: 20px;
+/* margin-right: 50px; */
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.categoriesText{
+    /* Categories */
+
+width: 90px;
+height: 20px;
+
+/* Title/16PX Semibold */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+margin-left: 30px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+/* Secondary 2 */
+color: #DB4444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.pics{
+    /* Frame 597 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1170px;
+height: 145px;
+
+/* background-color: bisque; */
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.firsticon{
+    /* Category-Phone */
+
+box-sizing: border-box;
+
+width: 170px;
+height: 145px;
+/* background-color: cadetblue; */
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+} 
+
+.phoneicon{
+    /* Category-CellPhone */
+
+position: relative;
+width: 66px;
+height: 66px;
+left: calc(50% - 56px/2);
+top: 25px;
+font-size: 60px;
+/* background-color: darkblue; */
+
+
+}
+
+.vectorText{
+    /* Vector */
+
+position: relative;
+left: 15.59%;
+right: 25.59%;
+top: 10.94%;
+bottom: 10.94%;
+margin-right: 50px;
+
+/* Button */
+/* border: 2px solid #000000; */
+
+}
+
+
+.text{
+    /* Phones */
+
+position: absolute;
+width: 59px;
+height: 24px;
+left: calc(50% - 59px/2 - 0.5px);
+bottom: 14px;
+text-align: center;
+/* background-color: #DB4444; */
+margin-right: 110px;
+top: 35px;
+
+/* Title/16PX Regular */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Text2 */
+color: #000000;
+
+
+}
+
+.secondIcon{
+    /* Category-Phone */
+
+box-sizing: border-box;
+
+width: 170px;
+height: 145px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.thirdIcon{
+    /* Category-Phone */
+
+box-sizing: border-box;
+
+width: 170px;
+height: 145px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.fourthIcon{
+    /* Category-Phone */
+color: white;
+width: 170px;
+height: 145px;
+
+/* Secondary 2 */
+background: #DB4444;
+/* Categogy/5 */
+box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+.fifthIcon{
+    /* Category-Phone */
+
+box-sizing: border-box;
+
+width: 170px;
+height: 145px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+.sixthIcon{
+    /* Category-Phone */
+
+box-sizing: border-box;
+
+width: 170px;
+height: 145px;
+
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+}

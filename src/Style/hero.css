@@ -1,0 +1,129 @@
+/* .container{
+    position: relative;
+    width: 1740px;
+    height: 5902px;
+    
+    /* BG */
+    /* background: #e9d0d0; */
+    /* } */ 
+
+
+.items{
+    /* Frame 768 */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+/* background-color: #000; */
+position: absolute;
+width: 217px;
+height: 344px;
+left: 135px;
+top: 182px;
+
+
+}
+
+.picture{
+    /* Frame 560 */
+
+position: absolute;
+width: 892px;
+height: 370px;
+left: 413px;
+top: 182px;
+
+/* Text2 */
+background: #000000;
+
+}
+
+.img{
+    /* hero_endframe__cvklg0xk3w6e_large 2 */
+
+position: absolute;
+width: 496px;
+height: 320px;
+left: 396px;
+top: 16px;
+
+/* background: url(hero_endframe__cvklg0xk3w6e_large.jpg); */
+
+}
+.iphone{
+    /* Frame 563 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+color: aliceblue;
+position: absolute;
+width: 190px;
+height: 49px;
+left: 104px;
+top: 60px;
+
+}
+
+.iphonedes{
+    /* Up to 10% off Voucher */
+
+position: absolute;
+width: 294px;
+height: 120px;
+left: 64px;
+top: 127px;
+
+/* Heading/48PX SemiBold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+letter-spacing: 0.04em;
+
+/* Text */
+color: #FAFAFA;
+
+
+}
+.appleDiv{
+    /* Frame 563 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 190px;
+height: 49px;
+left: 44px;
+top: 58px;
+
+
+}
+
+.apple{
+    /* 1200px-Apple_gray_logo 1 */
+
+width: 55px;
+height: 49px;
+/* margin-top: 50px; */
+
+background: url();
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}

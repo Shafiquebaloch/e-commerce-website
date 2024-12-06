@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #000;
+}
+.footer div {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.footer p, .footer a {
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: calc(100% - 50px);
+}
+.footer .subscribe button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.footer .download-app img {
+    width: 150px;
+    margin: 10px 0;
+}
+.footer .download-app .qr-code {
+    display: flex;
+    align-items: center;
+}
+.footer .download-app .qr-code img {
+    width: 100px;
+    margin-right: 10px;
+}
+.footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9em;
+}

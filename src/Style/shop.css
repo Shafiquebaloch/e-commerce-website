@@ -1,0 +1,971 @@
+.shop{
+    /* Frame 728 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+/* background-color: aqua; */
+position: absolute;
+width: 1308px;
+height: 493px;
+left: 135px;
+top: 666px;
+
+
+}
+
+.shopheader{
+    /* Frame 727 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 470px;
+/* background-color: blue; */
+width: 1170px;
+height: 103px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.shoptimings{
+    /* Frame 725 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 87px;
+
+width: 600px;
+height: 103px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* background-color: brown; */
+}
+
+
+
+.headings{
+    /* Frame 626 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+/* background-color: chartreuse; */
+width: 211px;
+height: 103px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.today{
+    /* Frame 625 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 100px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Todays{
+    /* Today’s */
+
+width: 64px;
+height: 20px;
+
+/* Title/16PX Semibold */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+margin-left: 30px;
+/* identical to box height, or 125% */
+
+/* Secondary 2 */
+color: #DB4444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.flash{
+    /* Flash Sales */
+
+width: 211px;
+height: 48px;
+
+/* Heading/36PX SemiBold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.time{
+    /* Group 1000005937 */
+
+width: 302px;
+height: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.days{
+    /* Days */
+
+width: 31px;
+height: 18px;
+
+/* Title/12PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Day{
+    /* 03 */
+
+width: 46px;
+height: 28px;
+
+/* Heading/32PX Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+/* or 94% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.HourDiv{
+    /* Frame 581 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+left: 27.81%;
+right: 58.28%;
+top: 11%;
+bottom: 0%;
+
+
+}
+
+.Hours{
+    /* Hours */
+
+width: 35px;
+height: 18px;
+
+/* Title/12PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+
+.hour{
+    /* 23 */
+
+width: 43px;
+height: 30px;
+
+/* Heading/32PX Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+/* identical to box height, or 94% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.MinutesDiv{
+    /* Frame 582 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+left: 32.3%;
+/* right: 29.47%; */
+top: 11%;
+bottom: 0%;
+
+
+}
+
+
+.minutes{
+    /* Minutes */
+
+width: 49px;
+height: 18px;
+
+/* Title/12PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.minute{
+    /* 19 */
+
+width: 39px;
+height: 28px;
+
+/* Heading/32PX Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+/* or 94% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.secondsDiv{
+    /* Frame 583 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+left: 37.11%;
+right: 0%;
+top: 10.8%;
+bottom: 0%;
+
+
+}
+
+
+.Seconds{
+    /* Seconds */
+
+width: 52px;
+height: 18px;
+
+/* Title/12PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.Second{
+/* 56 */
+
+width: 44px;
+height: 30px;
+
+/* Heading/32PX Bold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+/* identical to box height, or 94% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.shopthings{
+/* Frame 577 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1308px;
+height: 350px;
+overflow-x: scroll;
+/* background-color: cadetblue; */
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.firstThing{
+    /* Cart With Flat Discount  */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+/* background-color: bisque; */
+width: 270px;
+height: 350px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.secondThing{
+    /* Cart With Flat Discount  */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 270px;
+height: 350px;
+
+/* background-color: chocolate; */
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.thirdThing{
+    /* Cart With Flat Discount  */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+/* background-color: #DB4444; */
+/* background-color: blue; */
+width: 270px;
+height: 350px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+
+.fourthThing{
+    /* Cart With Flat Discount  */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+/* background-color: black; */
+width: 270px;
+height: 350px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.joystickDiv{
+    /* Frame 570 */
+
+width: 270px;
+height: 250px;
+
+/* Secondary */
+background: #F5F5F5;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.ImageDiv{
+    /* Frame 611 */
+
+position: relative;
+width: 190px;
+height: 180px;
+left: calc(50% - 190px/2);
+top: calc(50% - 180px/2);
+
+/* background-color: #000000; */
+}
+
+.JoystickImage{
+    /* g92-2-500x500 1 */
+
+position: absolute;
+width: 172px;
+height: 152px;
+left: calc(50% - 172px/2);
+top: calc(50% - 152px/2);
+
+/* background: url(.png); */
+
+}
+
+.textdiv{
+    /* Frame 569 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 201px;
+height: 84px;
+
+/* background-color: aqua; */
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.joyName{
+/* HAVIT HV-G92 Gamepad */
+
+width: 201px;
+height: 24px;
+
+/* Title/16PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.joyPrice{
+    /* Frame 567 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 85px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.now{
+    /* $120 */
+
+width: 36px;
+height: 24px;
+
+/* Title/16PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Secondary 2 */
+color: #DB4444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.before{
+   /* $160 */
+
+width: 37px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-decoration-line: line-through;
+
+/* Button */
+color: #000000;
+
+opacity: 0.5;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+ 
+}
+
+
+.fiveStar{
+   /* Frame 566 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 1px;
+
+width: 140px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+}
+ 
+.star{
+ /* Vector */
+
+width: 20px;
+height: 20px;
+
+/* background: #FFAD33; */
+border-radius: 1.4px;
+color: #FFAD33;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+} 
+
+
+.priceCut{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: 12px;
+/* top: 12px; */
+color: #F5F5F5;
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.pricedown{
+     /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: 12px;
+/* top: 12px; */
+color: #F5F5F5;
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+}
+.pricedec{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+color: #F5F5F5;
+position: absolute;
+width: 55px;
+height: 26px;
+left: 47%;
+top: 142px;
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.lastPrice{
+   /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: 12px;
+top: 12px;
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+
+}
+
+.pric{
+    /* Frame 567 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 85px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.myStars{
+    /* Frame 566 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 1px;
+width: 140px;
+height: 20px;
+margin-bottom: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+
+.numberDiv{
+    /* (88) */
+
+width: 32px;
+height: 20px;
+
+/* Title/14PX Semibold */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+
+/* Text2 */
+color: #000000;
+
+opacity: 0.5;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.ButtonDiv{
+    /* Frame 601 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 48px;
+gap: 10px;
+
+position: absolute;
+width: 234px;
+height: 56px;
+left: 500px;
+top: 600px;
+
+/* Button2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.product-button{
+    /* View All Products */
+
+width: 138px;
+height: 24px;
+
+/* Title/16PX Medium */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Text */
+color: #FAFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.red{
+    /* Rectangle 17 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 30px;
+width: 20px;
+/* margin-right: 50px; */
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}

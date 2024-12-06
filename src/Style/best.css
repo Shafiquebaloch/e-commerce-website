@@ -1,0 +1,325 @@
+.main-div{
+    /* Frame 732 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+position: absolute;
+width: 1170px;
+height: 518px;
+left: 135px;
+top: 1868px;
+
+
+}
+.headings{
+    /* Frame 626 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+/* background-color: chartreuse; */
+width: 211px;
+height: 103px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.bestHeader{
+/* Frame 731 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 611px;
+
+width: 1170px;
+height: 108px;
+
+/* background-color: #DB4444; */
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+
+.headerButton{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+padding: 16px 48px;
+gap: 10px;
+/* margin-left: 40px; */
+margin-right: 0px;
+width: 159px;
+height: 56px;
+color: white;
+
+/* Button2 */
+background: #DB4444;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.shoppingDiv{
+    /* Frame 603 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1170px;
+height: 350px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.priceCut{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+
+position: absolute;
+width: 55px;
+height: 26px;
+left: 12px;
+/* top: 12px; */
+color: #F5F5F5;
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.pricedown{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+color: #F5F5F5;
+position: absolute;
+width: 55px;
+height: 26px;
+left: 27%;
+top: 167px;
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.pricedec{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+color: #F5F5F5;
+position: absolute;
+width: 55px;
+height: 26px;
+left: 52%;
+top: 168px;
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+
+.lastPrice{
+    /* Discount percent */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
+color: #F5F5F5;
+position: relative;
+width: 55px;
+height: 26px;
+left: 5%;
+top: 2px;
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+
+.joystickDiv{
+    /* Frame 570 */
+
+width: 270px;
+height: 250px;
+
+/* Secondary */
+background: #F5F5F5;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.ImageDiv{
+    /* Frame 611 */
+
+position: relative;
+width: 190px;
+height: 180px;
+left: calc(50% - 190px/2);
+top: calc(50% - 180px/2);
+
+/* background-color: #000000; */
+}
+
+
+
+.today{
+    /* Frame 625 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 120px;
+height: 40px;
+/* background-color: white ; */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.Todays{
+    /* Today’s */
+
+width: 64px;
+height: 20px;
+
+/* Title/16PX Semibold */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+margin-left: 30px;
+/* identical to box height, or 125% */
+
+/* Secondary 2 */
+color: #DB4444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.red{
+    /* Rectangle 17 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 30px;
+width: 18px;
+/* margin-right: 50px; */
+
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
+
+}
+
+.selling{
+    /* Best Selling Products */
+
+width: 400px;
+height: 48px;
+
+/* Heading/36PX SemiBold */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+letter-spacing: 0.04em;
+
+/* Text2 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
